@@ -29,10 +29,10 @@ public class CustomListTest {
         CustomList list = new CustomList();
         City edmonton = new City("Edmonton", "AB");
         City calgary = new City("Calgary", "AB");
-        assertTrue(0, list.countCity());
+        assertTrue(list.countCity() == 0);
         list.addCity(edmonton);
-        assertTrue(1, list.countCity());
+        assertTrue(list.countCity() == 0);
         list.addCity(calgary);
-        assertTrue(2, list.countCity());
+        assertTrue(list.countCity()== 2);
     }
 }
