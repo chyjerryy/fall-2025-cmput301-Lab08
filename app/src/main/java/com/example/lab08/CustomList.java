@@ -22,5 +22,5 @@ public class CustomList {
     // public boolean hasCity(City city) { ... }
 
     public void deleteCity(City city) {cities.remove(city); }
-
+    public int countCity() { return cities.size(); }
 }
